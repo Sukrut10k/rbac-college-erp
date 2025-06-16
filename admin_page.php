@@ -89,7 +89,7 @@ $admin_codes_result = mysqli_query($conn, $admin_codes_query);
 <div class="dashboard">
    <nav class="navbar">
       <div class="brand">
-         <h2>🔐 Admin Dashboard</h2>
+         <h2>Admin Dashboard</h2>
       </div>
       <div class="user-info">
          <span>Welcome back,</span>
@@ -101,7 +101,7 @@ $admin_codes_result = mysqli_query($conn, $admin_codes_query);
    <div class="main-content">
       <!-- System Statistics -->
       <div class="card">
-         <h3>📊 System Statistics</h3>
+         <h3>System Statistics</h3>
          <p>Overview of users and roles in the system</p>
          <div class="stats">
             <div class="stat-item">
@@ -125,7 +125,7 @@ $admin_codes_result = mysqli_query($conn, $admin_codes_query);
 
       <!-- Pending User Approvals -->
       <div class="card">
-         <h3>👥 Pending User Approvals</h3>
+         <h3>Pending User Approvals</h3>
          <p>Review and approve new user registrations</p>
          
          <?php
@@ -180,7 +180,7 @@ $admin_codes_result = mysqli_query($conn, $admin_codes_query);
 
       <!-- Admin Code Management -->
       <div class="card">
-         <h3>🔑 Admin Code Management</h3>
+         <h3>Admin Code Management</h3>
          <p>Generate and manage admin authorization codes</p>
          
          <form method="post" style="margin: 20px 0;">
@@ -226,7 +226,7 @@ $admin_codes_result = mysqli_query($conn, $admin_codes_query);
 
       <!-- Add Faculty Member -->
       <div class="card">
-         <h3>👨‍🏫 Faculty Management</h3>
+         <h3>Faculty Management</h3>
          <p>Add and manage faculty members</p>
          
          <div class="add-faculty-form">
@@ -241,7 +241,7 @@ $admin_codes_result = mysqli_query($conn, $admin_codes_query);
 
       <!-- System Information -->
       <div class="card">
-         <h3>ℹ️ System Information</h3>
+         <h3>System Information</h3>
          <p>Current system status and information</p>
          <div style="margin-top: 20px;">
             <p style="margin: 10px 0; color: #4a5568;"><strong>System Status:</strong> <span style="color: #48bb78;">Active</span></p>
