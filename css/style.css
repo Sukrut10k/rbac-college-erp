@@ -11,15 +11,12 @@
 }
 
 body {
-    /* Professional dark blue gradient with subtle patterns */
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #334155 50%, #1e293b 75%, #0f172a 100%);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
     min-height: 100vh;
     position: relative;
 }
-
-/* Add subtle animated background pattern */
 body::before {
     content: '';
     position: fixed;
@@ -66,7 +63,6 @@ body::before {
     overflow: hidden;
 }
 
-/* Subtle glow effect for form */
 .form-wrapper::before {
     content: '';
     position: absolute;
@@ -403,7 +399,6 @@ body::before {
     background: rgba(15, 23, 42, 0.95);
 }
 
-/* Success message styling */
 div[style*="background:linear-gradient(135deg, #48bb78"] {
     background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
     box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
@@ -489,7 +484,6 @@ div[style*="color: #a0aec0"] span {
     margin-right: 8px;
 }
 
-/* Additional professional touches */
 @media (prefers-reduced-motion: no-preference) {
     .card,
     .btn,
