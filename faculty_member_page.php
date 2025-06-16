@@ -34,7 +34,7 @@ $faculty_count = mysqli_num_rows($faculty_count_query);
 <div class="dashboard">
    <nav class="navbar">
       <div class="brand">
-         <h2>👨‍🏫 Faculty Portal</h2>
+         <h2>Faculty Portal</h2>
       </div>
       <div class="user-info">
          <span>Welcome,</span>
@@ -46,7 +46,7 @@ $faculty_count = mysqli_num_rows($faculty_count_query);
    <div class="main-content">
       <!-- Welcome Card -->
       <div class="card">
-         <h3>👋 Welcome Faculty!</h3>
+         <h3>Welcome Faculty!</h3>
          <p>Hello <strong><?php echo $_SESSION['faculty_email']; ?></strong>, welcome to your faculty dashboard. Manage your courses, students, and academic activities from here.</p>
          <div style="margin-top: 20px;">
             <p style="margin: 10px 0; color: #4a5568;"><strong>Role:</strong> Faculty Member</p>
@@ -58,7 +58,7 @@ $faculty_count = mysqli_num_rows($faculty_count_query);
 
       <!-- Today's Overview -->
       <div class="card">
-         <h3>📊 Today's Overview</h3>
+         <h3>Today's Overview</h3>
          <p>Quick overview of your academic activities and statistics</p>
          <div class="stats">
             <div class="stat-item">
@@ -125,7 +125,7 @@ $faculty_count = mysqli_num_rows($faculty_count_query);
 
       <!-- Quick Actions -->
       <div class="card">
-         <h3>⚡ Quick Actions</h3>
+         <h3>Quick Actions</h3>
          <p>Frequently used tools and shortcuts for daily tasks</p>
          <div class="btn-group">
             <a href="#" class="btn">Create Assignment</a>
@@ -172,7 +172,7 @@ $faculty_count = mysqli_num_rows($faculty_count_query);
 
       <!-- Calendar & Schedule -->
       <div class="card">
-         <h3>📅 Today's Schedule</h3>
+         <h3>Today's Schedule</h3>
          <p>Your classes and meetings for today</p>
          <div style="margin-top: 20px;">
             <div style="padding: 12px; background: rgba(255, 255, 255, 0.5); border-radius: 8px; margin: 8px 0; display: flex; justify-content: space-between; align-items: center;">
