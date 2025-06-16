@@ -1,3 +1,5 @@
+-- This is exported file from phpmyadmin you can directly import this file !!
+-- Database: `user_db` !!
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
