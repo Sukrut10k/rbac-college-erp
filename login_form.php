@@ -59,7 +59,7 @@ if(isset($_POST['submit'])){
 <div class="form-container">
    <div class="form-wrapper">
       <div class="logo">
-         <h2>🔐 RBAC System</h2>
+         <h2>RBAC System</h2>
          <p>Role-Based Access Control</p>
       </div>
       
