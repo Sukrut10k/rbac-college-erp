@@ -28,7 +28,7 @@ $student_data = mysqli_fetch_array($student_result);
 <div class="dashboard">
    <nav class="navbar">
       <div class="brand">
-         <h2>🎓 Student Portal</h2>
+         <h2>Student Portal</h2>
       </div>
       <div class="user-info">
          <span>Welcome,</span>
@@ -40,7 +40,7 @@ $student_data = mysqli_fetch_array($student_result);
    <div class="main-content">
       <!-- Welcome Card -->
       <div class="card">
-         <h3>👋 Welcome Back!</h3>
+         <h3>Welcome Back!</h3>
          <p>Hello <strong><?php echo $_SESSION['user_name']; ?></strong>, welcome to your student dashboard. Here you can access all your academic resources and information.</p>
          <div style="margin-top: 20px;">
             <p style="margin: 10px 0; color: #4a5568;"><strong>Role:</strong> Student</p>
@@ -51,7 +51,7 @@ $student_data = mysqli_fetch_array($student_result);
 
       <!-- Academic Resources -->
       <div class="card">
-         <h3>📚 Academic Resources</h3>
+         <h3>Academic Resources</h3>
          <p>Access your courses, assignments, and academic materials</p>
          <div class="btn-group">
             <a href="#" class="btn">My Courses</a>
@@ -62,7 +62,7 @@ $student_data = mysqli_fetch_array($student_result);
 
       <!-- Quick Links -->
       <div class="card">
-         <h3>🔗 Quick Links</h3>
+         <h3>Quick Links</h3>
          <p>Frequently used links and resources</p>
          <div class="btn-group">
             <a href="#" class="btn secondary">Library</a>
@@ -87,7 +87,7 @@ $student_data = mysqli_fetch_array($student_result);
 
       <!-- Help & Support -->
       <div class="card">
-         <h3>❓ Help & Support</h3>
+         <h3>Help & Support</h3>
          <p>Get help and contact support when needed</p>
          <div class="btn-group">
             <a href="#" class="btn">Contact Support</a>
@@ -97,7 +97,7 @@ $student_data = mysqli_fetch_array($student_result);
 
       <!-- Account Management -->
       <div class="card">
-         <h3>⚙️ Account Settings</h3>
+         <h3>Account Settings</h3>
          <p>Manage your account and preferences</p>
          <div class="btn-group">
             <a href="login_form.php" class="btn secondary">Login Portal</a>
